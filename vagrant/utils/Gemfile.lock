@@ -1,11 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activerecord (2.3.18)
-      activesupport (= 2.3.18)
+    activerecord (3.2.14)
     activerecord-mysql2-adapter (0.0.3)
       mysql2
-    activesupport (2.3.18)
     beefcake (0.3.7)
     bson (1.9.1)
     bson_ext (1.9.1)
@@ -32,7 +30,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord
+  activerecord (>= 3.2.14)
   activerecord-mysql2-adapter
   bson_ext
   iconv
@@ -41,3 +39,6 @@ DEPENDENCIES
   rake
   redis
   riak-client
+
+BUNDLED WITH
+   2.1.4

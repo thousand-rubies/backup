@@ -16,4 +16,4 @@ gem 'bson_ext'
 gem 'redis'
 
 # Riak
-gem 'riak-client'
+gem 'riak-client', '>= 1.4.0'
